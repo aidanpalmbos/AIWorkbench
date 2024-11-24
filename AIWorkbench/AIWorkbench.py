@@ -32,7 +32,7 @@ childWindow = None
 root.geometry("1050x650")
 root.minsize(1050, 650)
 root.title("AI Workbench")
-iconPath = os.path.abspath(os.path.join(os.path.dirname(__file__), "appIcon.ico"))
+iconPath = os.path.abspath(os.path.join(os.path.dirname(__file__), "images", "appIcon.ico"))
 root.iconbitmap(iconPath)
 
 columnInput = tk.Frame(root)
